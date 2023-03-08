@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+
+<!--
+File: championships.html
+Sample Celtics History Page
+Musa Jamshed, musa.jamshed@gmail.com
+Date: March 4, 2022
+Sources of inspiration: 
+https://www.youtube.com/watch?v=tscf35hDL0U
+https://www.youtube.com/watch?v=4sosXZsdy-s
+-->
+
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Celtics History</title>
+    <!-- Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>    
+</head>
+<body>
+    <!-- navigation bar -->
+    <nav id = "navbar">
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Championships & Accolades</a></li>
+                <li><a href="retired.html">Retired Numbers</a></li>
+                <!-- <a href="https://www.celtics.com">
+                    <img src="images/logo.png" alt="Celtics logo" width="50">
+                </a> -->
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- wrapper container -->
+    <div class="container">
+        <!-- webpage header -->
+        <div class="top-section">
+            <h1 id="championshipHeader">Championships & Accolades</h1>
+            <p id="championshipText">Listed below are both team accomplishments of the Boston Celtics organization and the individual accolades won by its players thus far.</p>
+        </div>
+
+        <br>
+
+        <!-- Accordion -->
+        <div class="p-3 mb-2 bg-success text-white" id="accordionBackground">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" style="background-color: #007A33; color: white; font-weight: bolder;" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      NBA Championships
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <ol>
+                        <li> <b class="goldColor">1957</b> vs St. Louis Hawks</li>
+                        <li> <b class="goldColor">1959</b> vs Minneapolis Lakers</li>
+                        <li> <b class="goldColor">1960</b> vs St. Louis Hawks</li>
+                        <li> <b class="goldColor">1961</b> vs St. Louis Hawks</li>
+                        <li> <b class="goldColor">1962</b> vs Los Angeles Lakers</li>
+                        <li> <b class="goldColor">1963</b> vs Los Angeles Lakers</li>
+                        <li> <b class="goldColor">1964</b> vs San Francisco Warriors</li>
+                        <li> <b class="goldColor">1965</b> vs Los Angeles Lakers</li>
+                        <li> <b class="goldColor">1966</b> vs Los Angeles Lakers</li>
+                        <li> <b class="goldColor">1968</b> vs Los Angeles Lakers</li>
+                        <li> <b class="goldColor">1969</b> vs Los Angeles Lakers</li>
+                        <li> <b class="goldColor">1974</b> vs Milwaukee Bucks <b id="finalsMVPColor">(Finals MVP: John Havlicek)</b></li>
+                        <li> <b class="goldColor">1976</b> vs Phoenix Suns <b id="finalsMVPColor">(Finals MVP: Jo Jo White)</b></li>
+                        <li> <b class="goldColor">1981</b> vs Houston Rockets <b id="finalsMVPColor">(Finals MVP: Cedric Maxwell)</b></li>
+                        <li> <b class="goldColor">1984</b> vs Los Angeles Lakers <b id="finalsMVPColor">(Finals MVP: Larry Bird)</b></li>
+                        <li> <b class="goldColor">1986</b> vs Houston Rockets <b id="finalsMVPColor">(Finals MVP:  Larry Bird)</b></li>
+                        <li> <b class="goldColor">2008</b> vs Los Angeles Lakers <b id="finalsMVPColor">(Finals MVP: Paul Pierce)</b></li>
+                        </ol>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" style="background-color: #007A33; color: white; font-weight: bolder;" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Most Valuable Player
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <ul>
+                        <li> <b class="goldColor">Bob Cousy</b> (1956-57)</li>
+                        <li> <b class="goldColor">Bill Russell</b> (1957-58, 1960-61, 1961-1962, 1962-63, 1964-65)</li>
+                        <li> <b class="goldColor">Dave Cowens</b> (1972-1973)</li>
+                        <li> <b class="goldColor">Larry Bird</b> (1983-84, 1984-85, 1985-86)</li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" style="background-color: #007A33; color: white; font-weight: bolder;" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      Defensive Player of the Year
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <ul>
+                            <li> <b class="goldColor">Kevin Garnett</b> (2007-2008)</li>
+                            <li> <b class="goldColor">Marcus Smart</b> (2021-2022)</li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingFour">
+                      <button class="accordion-button collapsed" type="button" style="background-color: #007A33; color: white; font-weight: bolder;" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                        Rookie of the Year
+                      </button>
+                    </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                        <ul>
+                            <li><b class="goldColor">Tommy Heinsohn</b> (1956-57)</li>
+                            <li> <b class="goldColor">Dave Cowens</b> (1970-71; shared with Geoff Petrie of the Portland Trail Blazers)</li>
+                            <li> <b class="goldColor">Larry Bird</b> (1979-80)</li>
+                        </ul>
+                    </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingFive">
+                      <button class="accordion-button collapsed" type="button" style="background-color: #007A33; color: white; font-weight: bolder;" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                        Sixth Man of the Year
+                      </button>
+                    </h2>
+                    <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                        <ul>
+                            <li> <b class="goldColor">Kevin McHale</b> (1983-84, 1984-85)</li>
+                            <li> <b class="goldColor">Bill Walton</b> (1985-86)</li>
+                        </ul>
+                    </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingSix">
+                      <button class="accordion-button collapsed" type="button" style="background-color: #007A33; color: white; font-weight: bolder;" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                        Coach of the Year
+                      </button>
+                    </h2>
+                    <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                        <ul>
+                            <li> <b class="goldColor">Red Auerbach</b> (1964-65)</li>
+                            <li> <b class="goldColor">Tommy Heinsohn</b> (1972-73)</li>
+                            <li> <b class="goldColor">Bill Fitch</b> (1979-80)</li>
+                        </ul>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingSeven">
+                      <button class="accordion-button collapsed" type="button" style="background-color: #007A33; color: white; font-weight: bolder;" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                        Executive of the Year
+                      </button>
+                    </h2>
+                    <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                        <ul>
+                            <li> <b class="goldColor">Red Auerbach</b> (1979-80)</li>
+                            <li> <b class="goldColor">Danny Ainge</b> (2007-08)</li>
+                        </ul>
+                        </div>
+                    </div>
+                  </div>                                        
+              </div>
+        </div>
+    </div>
+</body>
+</html>
